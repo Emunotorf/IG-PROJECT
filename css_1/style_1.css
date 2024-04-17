@@ -1,0 +1,167 @@
+.bigcontainer{
+    display: grid;
+    grid-template-columns: 300px 450px;
+}
+
+.almightycontainer2 {
+    display: none;
+}
+
+body{
+    background-color: black;
+    margin-left: 25%;
+}
+
+p{
+    color:white;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-justify: space-evenly;
+}
+
+
+.pfp {
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+    padding:1rem;
+    margin-left: 50px;
+    cursor: pointer;   
+}
+    
+
+.btn {
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 0.5em;
+    height: 1.5rem;
+    border:none;
+    outline:none;
+    background-color: hsl(0, 1%, 15%);
+    cursor:pointer;
+}
+
+.btn:hover{
+    background-color: hsl(0, 0%, 11%);
+}
+
+.set {
+    width: 30px;
+    height:auto;
+    border-radius: 50px;
+    cursor:pointer;
+}
+
+.num {
+    display: grid;
+    grid-template-columns: 5rem 7rem 5rem;
+    cursor: pointer;
+}
+
+.link {
+    width: 10px;
+    height:auto;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+a {
+    color:hsl(199, 41%, 83%);
+}
+
+
+.high{
+    display: flex;
+   
+    gap: 5%;
+    margin-top:20px;
+    margin-right: 4;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.high img {
+    display: flex;
+
+    width: 60px;
+    height:auto;
+    border-radius: 50px;
+    cursor:pointer;
+}
+
+.high p{
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 550px) {
+    .almightycontainer{
+        display: none;
+    }
+    body{
+        margin-left: 3%;
+    }
+    p{
+        font-size: 13px;
+    }
+    .pfp{
+        width: 100px;
+        height: 100px;
+        border-radius: 90px;
+        padding:1rem;
+        margin-left: 1%;
+        cursor: pointer;         
+    }
+    .pfpbox{
+        display:grid;
+        grid-template-columns: 4rem 2rem;
+        text-align: center;
+    }
+    .num{
+        align-items: center;
+    }
+    .smallcontainer1{
+        margin-top: -4%;
+    }
+    .btn2{
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+        padding: 0.5em 1em;
+        margin: 0.25em;
+        border-radius: 0.5em;
+        height: 2rem;
+        border:none;
+        outline:none;
+        background-color: hsl(0, 1%, 15%);
+        cursor:pointer;
+    }
+    .btn2:hover{
+        background-color: hsl(0, 0%, 11%);
+    }
+
+.high1{
+    display: flex;
+   
+    gap: 5%;
+    margin-top:20px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+    .high1 img {
+        display: flex;
+        flex-direction: row;
+    
+        width: 50px;
+        height:auto;
+        border-radius: 50px;
+        cursor:pointer;
+    }
+    
+    .high1 p{
+        margin-left: 7px;
+    }   
+}
